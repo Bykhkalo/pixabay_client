@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    >
+
+    <com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:appbarHeight="?android:actionBarSize"
+        app:drawerAnimDistance="62.5%"
+        app:menuAnimationDuration="150"
+        app:navigationDrawerBackgroundColor="@android:color/white"
+        app:openCloseAnimationDuration="300"
+        app:radius="24dp"
+        app:useDefaultToolbar="false"
+        >
+
+        <FrameLayout
+            android:id="@+id/img_fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
+    </com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer>
+
+</LinearLayout>

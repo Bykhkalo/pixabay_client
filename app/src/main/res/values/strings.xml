@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Pixabay Image Viewer</string>
+    <string name="see_images">See images</string>
+    <string name="app_description">The simplest way to find and see a beautiful images about any topic</string>
+    <string name="see_videos">See videos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pixabay_name">Pixabay</string>
+    <string name="navigation_button_description">Navigation button</string>
+    <string name="retry">Retry</string>
+
+
+    <string-array name="image_types">
+        <item>all</item>
+        <item>illustration</item>
+        <item>photo</item>
+        <item>vector</item>
+    </string-array>
+
+    <string-array name="orientation_types">
+        <item>vertical</item>
+        <item>horizontal</item>
+        <item>all</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item name="default_cat">default</item>
+        <item name="backgrounds_cat">backgrounds</item>
+        <item name="fashion_cat">fashion</item>
+        <item name="nature_cat">nature</item>
+        <item name="science_cat">science</item>
+        <item name="education_cat">education</item>
+        <item name="feelings_cat">feelings</item>
+        <item name="health_cat">health</item>
+        <item name="people_cat">people</item>
+        <item name="religion">religion</item>
+        <item name="places_cat">places</item>
+        <item name="animals_cat">animals</item>
+        <item name="industry_cat">industry</item>
+        <item name="computer_cat">computer</item>
+        <item name="food_cat">food</item>
+        <item name="sports_cat">sports</item>
+        <item name="transportation_cat">transportation</item>
+        <item name="travel_cat">travel</item>
+        <item name="buildings_cat">buildings</item>
+        <item name="business_cat">business</item>
+        <item name="music_cat">music</item>
+    </string-array>
+
+    <string-array name="order">
+        <item>popular</item>
+        <item>latest</item>
+    </string-array>
+
+
+
+
+</resources>

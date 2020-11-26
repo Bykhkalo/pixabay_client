@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Images">
+        <menu>
+            <item
+                android:id="@+id/nav_all"
+                android:title="show all"
+                />
+            <item
+                android:id="@+id/nav_photo"
+                android:title="photos"
+                />
+
+            <item android:id="@+id/nav_illustration"
+                android:title="illustrations"/>
+
+            <item android:id="@+id/nav_vector"
+                android:title="vector"/>
+        </menu>
+    </item>
+
+<!--    <item android:title="Company">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/nav_about_us"-->
+<!--                android:title="about us"-->
+<!--                />-->
+<!--            <item-->
+<!--                android:id="@+id/nav_contact_us"-->
+<!--                android:title="contact us"-->
+<!--                />-->
+<!--        </menu>-->
+<!--    </item>-->
+
+</menu>
